@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/Usid"
+        android:drawablePadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/uname"
+        android:editable="false"
+        android:layout_margin="10dp"
+        android:hint="User ID"/>
+
+    <EditText
+        android:id="@+id/Usname"
+        android:drawablePadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/uname"
+        android:layout_margin="10dp"
+        android:hint="User Name"/>
+
+
+
+    <EditText
+        android:id="@+id/usRemail"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/email"
+        android:layout_margin="10dp"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:id="@+id/usAge"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/age"
+        android:layout_margin="10dp"
+        android:hint="Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/uscontct"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/call"
+        android:layout_margin="10dp"
+        android:hint="Contact Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/uspassword"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/padlock"
+        android:layout_margin="10dp"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/usregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonbg"
+        android:layout_margin="10dp"
+        android:text="Update" />
+
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <EditText-->
+<!--        android:id="@+id/OrderId"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Book ID"-->
+<!--        android:inputType="textPersonName" />-->
+
+    <EditText
+        android:id="@+id/obookid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Book Id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/obookname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Book Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/obookauthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Author"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/oobbookprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/obookpages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Page Count"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/obooktype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Genere"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/oderingDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Ordering Date"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/replaceDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Book replace date"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/orderbook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonbg2"
+        android:text="Add to Order List"
+        app:backgroundTint="@color/button2" />
+</LinearLayout>

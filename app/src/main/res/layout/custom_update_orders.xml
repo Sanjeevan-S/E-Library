@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/OrderId"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Book ID"-->
+    <!--        android:inputType="textPersonName" />-->
+
+
+    <TextView
+        android:id="@+id/oobookname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Book Name" />
+
+    <TextView
+        android:id="@+id/oobookauthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Author" />
+
+    <TextView
+        android:id="@+id/ooobbookprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Price" />
+
+    <TextView
+        android:id="@+id/oobookpages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Page Count" />
+
+    <TextView
+        android:id="@+id/oobooktype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Book type"/>
+
+    <EditText
+        android:id="@+id/ooderingDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Ordering Date"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/oreplaceDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Book replace date"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/oorderbook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonbg2"
+        android:text="Add to Order List"
+        app:backgroundTint="@color/button2" />
+</LinearLayout>

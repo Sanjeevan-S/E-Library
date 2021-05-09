@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ccardType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Card type"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cOwnername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Ownership"
+        android:inputType="textPersonName" />
+
+
+
+    <EditText
+        android:id="@+id/cnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Visa Or Master Card Number"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/cexpire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Expire date of card"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ccvs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="CVS"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/caddcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonbg2"
+        android:backgroundTint="@color/button2"
+        android:text="+Add Payment Card"
+        app:backgroundTint="@color/button2" />
+</LinearLayout>

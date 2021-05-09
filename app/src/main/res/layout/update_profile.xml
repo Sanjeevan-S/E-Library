@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/uUname"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/uname"
+            android:layout_margin="10dp"
+            android:hint="User Name"/>
+
+
+
+        <TextView
+            android:id="@+id/uRemail"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/email"
+            android:layout_margin="10dp"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/uAge"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/age"
+            android:layout_margin="10dp"
+            android:hint="Age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/ucontct"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/call"
+            android:layout_margin="10dp"
+            android:hint="Contact Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/upassword"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/padlock"
+            android:layout_margin="10dp"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/updatep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonbg"
+            android:layout_margin="10dp"
+            android:text="Update" />
+
+
+    </LinearLayout>
+</LinearLayout>
